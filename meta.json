@@ -1,5 +1,5 @@
-module.exports = {
-  "prompts": {
+{
+  "schema": {
     "name": {
       "type": "string",
       "required": true,
@@ -16,10 +16,14 @@ module.exports = {
       "label": "Version",
       "default": "1.0.0"
     },
+    "license": {
+      "type": "string",
+      "label": "Version",
+      "default": "MITS"
+    },
     "author": {
       "type": "string",
       "label": "Author"
     }
-  },
-  "completeMessage": "Hey Ho, get started:\n\n  cd {{destDirName}}\n  npm install\n  npm run dev\n\n"
-};
+  }
+}
