@@ -4,13 +4,13 @@
 
 ## Instalação
 
-  # instalar com vue-cli
-  vue init leonardovilarinho/newbie-webpack-simple nome-do-projeto
+    # instalar com vue-cli
+    vue init leonardovilarinho/newbie-webpack-simple nome-do-projeto
 
-  # entrar no diretório do projeto, instalar dependências e iniciar servidor
-  cd nome-do-projeto
-  npm install
-  npm run dev
+    # entrar no diretório do projeto, instalar dependências e iniciar servidor
+    cd nome-do-projeto
+    npm install
+    npm run dev
 
 ## Criando componentes
 
@@ -20,14 +20,14 @@ Basta criar seus componentes no diretório `/src/componentes/`
 
 Basta criar suas diretivas no diretório `/src/directives/` e no arquivo `/src/directives/actives.js`, registrar:
 
-  require('./arquivo-da-diretiva')
+    require('./arquivo-da-diretiva')
 
 ## Criando e ativando plugins
 
 Basta criar seus plugins no diretório `/src/plugins/` e no arquivo `/src/plugins/actives.js`, registrar:
 
-  import ExampleP from './ExampleP'
-  Vue.use( ExampleP )
+    import ExampleP from './ExampleP'
+    Vue.use( ExampleP )
 
 ## Criando rotas
 
