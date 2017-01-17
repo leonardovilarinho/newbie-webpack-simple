@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <h1>{{ name }} - v.{{version}}</h1>
+    <h1>{{name}} - v.{{version}}</h1>
     <hr>
     <p>
       <router-link to='/'>Router test</router-link> |

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 v-text='foo'></h2>
+    <p v-text='foo' v-example></p>
   </div>
 </template>
 

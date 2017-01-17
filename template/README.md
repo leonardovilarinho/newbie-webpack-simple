@@ -1,6 +1,6 @@
-# appname
+# {{name}}
 
-> appdescription
+> {{description}}
 
 ## Build Setup
 

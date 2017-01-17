@@ -1,7 +1,7 @@
 {
   "name": "{{name}}",
   "description": "{{description}}",
-  "version": "{{versison}}",
+  "version": "{{version}}",
   "author": "{{author}}",
   "license": "{{license}}",
   "private": true,
@@ -10,10 +10,13 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
+    "extract-text-webpack-plugin": "^2.0.0-beta.0",
+    "purifycss-webpack-plugin": "^2.0.3",
     "vue": "^2.1.0",
     "vue-resource": "^1.0.3",
     "vue-router": "^2.1.1",
-    "vuex": "^2.1.1"
+    "vuex": "^2.1.1",
+    "vuex-router-sync": "^4.1.1"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",

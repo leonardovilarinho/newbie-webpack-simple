@@ -15,7 +15,7 @@ export default {
 
   computed: {
     count () {
-      return store.state.count
+      return store.getters.count
     }
   },
 
@@ -26,7 +26,7 @@ export default {
 
 	methods: {
     increment () {
-      store.commit('increment')
+      store.dispatch('increment')
     },
     decrement () {
     	store.commit('decrement')
