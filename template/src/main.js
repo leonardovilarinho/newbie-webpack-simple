@@ -5,10 +5,6 @@ import VueResource from 'vue-resource'
 Vue.use( VueRouter )
 Vue.use( VueResource )
 
-import 'bootstrap/dist/css/bootstrap.css'
-import 'font-awesome/css/font-awesome.css'
-
-
 import App from './App.vue'
 import Routes from './routes'
 import Store from './vuex/store'
