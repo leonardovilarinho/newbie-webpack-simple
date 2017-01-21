@@ -1,8 +1,5 @@
 var path = require('path')
 var webpack = require('webpack')
-const glob = require('glob')
-const ExtractTextPlugin = require('extract-text-webpack-plugin')
-const PurifyPlugin = require('purifycss-webpack-plugin')
 
 module.exports = {
   entry: './src/main.js',
@@ -11,21 +8,8 @@ module.exports = {
     publicPath: '/dist/',
     filename: 'build.js'
   },
-  plugins: [
-    new ExtractTextPlugin('style.css'),
-    new PurifyPlugin({
-      basePath: glob.sync(path.join(__dirname, 'index.html'))
-    })
-  ],
   module: {
     rules: [
-      {
-        test: /\.css$/,
-        loader: ExtractTextPlugin.extract({
-          fallbackLoader: 'style-loader',
-          loader: 'css-loader'
-        })
-      },
       {
         test: /\.vue$/,
         loader: 'vue-loader',

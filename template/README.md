@@ -1,6 +1,6 @@
-# {{name}}
+# template
 
-> {{description}}
+> A Vue.js + router + resource + vuex project
 
 ## Build Setup
 
