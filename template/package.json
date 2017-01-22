@@ -11,7 +11,7 @@
     "test": "node .\\node_modules\\karma\\bin\\karma start"
   },
   "dependencies": {
-    "element": "^0.1.4",
+    "element-ui": "^1.1.5",
     "lodash": "^4.17.4",
     "vue": "^2.1.0",
     "vue-acl": "^1.0.0",
@@ -34,6 +34,7 @@
     "karma-phantomjs-launcher": "^1.0.2",
     "karma-webpack": "^2.0.1",
     "phantomjs": "^2.1.7",
+    "style-loader": "^0.13.1",
     "vue-loader": "^10.0.0",
     "vue-template-compiler": "^2.1.0",
     "webpack": "^2.1.0-beta.25",
