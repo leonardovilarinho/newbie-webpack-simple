@@ -4,9 +4,9 @@
     <h1>{{name}} - v.{{version}}</h1>
     <hr>
     <p>
-      <router-link to='/'>Router test</router-link> |
-      <router-link to='/resource'>Resource test</router-link> |
-      <router-link to='/vuex'>Vuex test</router-link>
+      <router-link v-show="can('admin.any')" to='/'>Router test</router-link> |
+      <router-link v-show="can('admin.any')" to='/resource'>Resource test</router-link> |
+      <router-link v-show="can('admin')" to='/vuex'>Vuex test</router-link>
     </p>
     <hr>
     <router-view></router-view>
